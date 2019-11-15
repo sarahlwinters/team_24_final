@@ -1,0 +1,49 @@
+#map {
+    position: absolute;
+    top: 10em;
+    bottom: 10em;
+    left: 10em;
+    right: 10em;
+}
+header { 
+    position: relative; 
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    top: 1em;
+ }
+menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(247, 233, 207, 0);
+    z-index: 2;
+  }
+  list {
+    float: left;
+  }
+  list a {
+    display: block;
+    width: auto;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    border-bottom: 3px solid rgb(197, 197, 197);
+    text-decoration: none;
+    font-family: verdana;
+  }
+  list a:hover {
+    border-bottom: 3px solid gray;
+    color: black;
+  }
+  list a.active {
+    background-color: rgb(168, 219, 161);
+    border-bottom: 3px solid rgb(61, 61, 61);
+    color: white;
+  }

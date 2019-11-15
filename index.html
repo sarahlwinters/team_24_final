@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      PG County Home Inspections
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+  </head>
+
+  <menu>
+    <ul class="main_menu">
+      <list><a href="index.html" class="active">Home</a></list>
+      <list><a href="about.html">About</a></list>
+      <list><a href="documentation.html">Documentation</a></list>
+    </ul>
+  </menu>
+
+  <header>
+    PG County Home Inspections
+  </header>
+
+  <body>
+    <div id="map" onload="loadData()"></div>
+    <script>
+      function loadData() {
+        console.log("fetch"); // confirm code is running on click
+        fetch("/api")
+          .then(res => res.json())
+          .then(res => {
+            console.log(res); // logging step to check what we got
+            return res;
+          })}
+      var map = L.map("map").setView([0, 0], 1);
+
+      L.tileLayer(
+        "https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=smaBuGfoiQznALG9gMRq",
+        {
+          attribution:
+            '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+        }
+      ).addTo(map);
+    </script>
+  </body>
+</html>
