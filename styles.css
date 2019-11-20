@@ -2,8 +2,8 @@
     position: absolute;
     top: 10em;
     bottom: 10em;
-    left: 10em;
-    right: 10em;
+    left: 20em;
+    right: 20em;
 }
 header { 
     position: relative; 
@@ -46,4 +46,14 @@ menu {
     background-color: rgb(168, 219, 161);
     border-bottom: 3px solid rgb(61, 61, 61);
     color: white;
+  }
+  section {
+    margin: 5em 15em 15em;
+  }
+  section p {
+  position: relative;
+	text-align:center;
+	color: black;
+	font-family: verdana;
+	font-size: 15xpx;
   }
