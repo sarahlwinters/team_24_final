@@ -4,8 +4,8 @@ body {
 }
 #map {
     position: absolute;
-    top: 15em;
-    bottom: 1em;
+    top: 17em;
+    bottom: .1em;
     left: 10em;
     right: 10em;
 }
@@ -57,11 +57,19 @@ menu {
     border-bottom: white;
     color: black;
   }
-  p {
+  .indexBio {
+    margin: 25em 14em 14em;
+    position: relative;
+	  text-align:center;
+	  color: black;
+	  font-family: verdana;
+	  font-size: 20px;
+  }
+  .aboutBio {
     margin: 2em 14em 14em;
     position: relative;
-	text-align:center;
-	color: black;
-	font-family: verdana;
-	font-size: 20px;
+	  text-align:center;
+	  color: black;
+	  font-family: verdana;
+	  font-size: 20px;
   }
