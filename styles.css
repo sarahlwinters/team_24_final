@@ -57,3 +57,11 @@ menu {
     border-bottom: white;
     color: black;
   }
+  p {
+    margin: 2em 14em 14em;
+    position: relative;
+	text-align:center;
+	color: black;
+	font-family: verdana;
+	font-size: 20px;
+  }
