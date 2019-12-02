@@ -6,14 +6,15 @@ const port = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
 app.get('/api', (req, res) => {
   const baseURL = 'https://data.princegeorgescountymd.gov/resource/9hyf-46qb.json';
   fetch(baseURL)
     .then((r) => r.json())
-    .then((result) => {
-    console.log(result);
-      res.send({ data: result });
+    .then((data) => {
+      console.log(data);
+      res.send({ data: data });
     })
     .catch((err) => {
       console.log(err);
