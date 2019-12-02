@@ -6,16 +6,21 @@ const port = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
 app.get('/api', (req, res) => {
   const baseURL = 'https://data.princegeorgescountymd.gov/resource/9hyf-46qb.json';
   fetch(baseURL)
     .then((r) => r.json())
-    .then((course) => {course.filter(c => c.dept_id === "INST")})
-    .then((course) => course.map(c => c.course_id + ": " + c.name))
-    .then((result) => {
-    console.log(result);
-      res.send({ data: result });
+    .then( res => {
+      for (let i = 0; i < res.length; i += 1){
+        res[i]["address"] = res[i].street_number + " " + res[i].street_name + " "+ res[i].street_type +", " +res[i].city + ", " + res[i].state;
+    }
+    
+      return res;})
+    .then((data) => {
+      console.log(data);
+      res.send({ data: data });
     })
     .catch((err) => {
       console.log(err);
