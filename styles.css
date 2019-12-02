@@ -84,3 +84,32 @@ menu {
   .docHeader {
     text-align: center;
   }
+  #row{
+    padding-top: 50px;
+  }
+  .column-left {
+    float: left;
+    width: 32%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(195, 253, 201);
+    border: 2px solid black; 
+  }
+  .column-center {
+    display: inline-block;
+    width: 32%;
+    padding-left: 10.5px;
+    background-color:rgb(195, 253, 201);
+    border: 2px solid black; 
+  }
+  .column-right {
+    float: right;
+    width: 32%;
+    padding-left: 8.75px;
+    padding-right: 10px;
+    background-color: rgb(195, 253, 201);
+    border: 2px solid black; 
+  }
+  .heading{
+    text-align: center;
+  }
