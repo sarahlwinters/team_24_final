@@ -12,6 +12,12 @@ app.get('/api', (req, res) => {
   const baseURL = 'https://data.princegeorgescountymd.gov/resource/9hyf-46qb.json';
   fetch(baseURL)
     .then((r) => r.json())
+    .then( res => {
+      for (let i = 0; i < res.length; i += 1){
+        res[i]["address"] = res[i].street_number + " " + res[i].street_name + " "+ res[i].street_type +", " +res[i].city + ", " + res[i].state;
+    }
+    
+      return res;})
     .then((data) => {
       console.log(data);
       res.send({ data: data });
