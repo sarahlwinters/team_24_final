@@ -78,15 +78,28 @@ menu {
 	  font-size: 20px;
   }
   .documentationBio {
-    margin: 2em 14em 14em;
     position: relative;
 	  text-align:center;
 	  color: black;
 	  font-family: verdana;
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .documentationHeader {
+    position: relative;
+	  text-align:center;
+	  color: black;
+	  font-family: verdana;
+    font-size: 18px;
   }
   .docHeader {
+    font-family: verdana;
     text-align: center;
+  }
+  .docIMG {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .heading{
     text-align: center;
@@ -97,7 +110,7 @@ menu {
     padding-top: 50px;
   }
   .column-left {
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
     font-family: verdana;
     margin-top: 2em;
     margin-left: 1em;
@@ -107,10 +120,9 @@ menu {
     height: 26em;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: rgb(207, 207, 207);
   }
   .column-center {
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
     font-family: verdana;
     margin-top: 2em;
     margin-left: .5em;
@@ -119,19 +131,19 @@ menu {
     width: 32%;
     height: 26em;
     padding-left: 10.5px;
-    background-color: rgb(207, 207, 207);
+    border-left: 3px black;
   }
   .column-right {
-    box-shadow: 0 2px 4px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
     font-family: verdana;
     margin-top: 2em;
     margin-right: 1em;
     float: right;
     width: 32%;
     height: 26em;
-    padding-left: 8.75px;
+    padding-left: 10px;
     padding-right: 10px;
-    background-color: rgb(207, 207, 207);
+    border-left: 2px black;
   }
   *, *:before, *:after {
     box-sizing: inherit;
