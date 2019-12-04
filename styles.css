@@ -1,20 +1,24 @@
 html,
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 #map {
-    position: absolute;
-    top: 17em;
-    bottom: .1em;
-    left: 10em;
-    right: 10em;
+    top: 20em;
+    position: relative;
+    display: inline;
+}
+.tableauPlaceholder {
+  top: 2em;
+  left: 5em;
+  align-content: center;
 }
 header .PG { 
     position: relative; 
     text-align: center;
     width: 100%;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: verdana;
     font-size: 30px; 
     top: 1em;
  }
@@ -84,32 +88,94 @@ menu {
   .docHeader {
     text-align: center;
   }
+  .heading{
+    text-align: center;
+  }
+
+  /* About Page CSS */
   #row{
     padding-top: 50px;
   }
   .column-left {
+    font-family: verdana;
+    margin-top: 2em;
+    margin-left: 1em;
+    top: 20em;
     float: left;
     width: 32%;
+    height: 26em;
     padding-left: 10px;
     padding-right: 10px;
     background-color: rgb(195, 253, 201);
     border: 2px solid black; 
   }
   .column-center {
-    display: inline-block;
+    font-family: verdana;
+    margin-top: 2em;
+    margin-left: .5em;
+    float: left;
+    align-content: center;
     width: 32%;
+    height: 26em;
     padding-left: 10.5px;
     background-color:rgb(195, 253, 201);
     border: 2px solid black; 
   }
   .column-right {
+    font-family: verdana;
+    margin-top: 2em;
+    margin-right: 1em;
     float: right;
     width: 32%;
+    height: 26em;
     padding-left: 8.75px;
     padding-right: 10px;
     background-color: rgb(195, 253, 201);
     border: 2px solid black; 
   }
-  .heading{
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .column {
+    float: left;
+    margin-left: 5em;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 10px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .title {
+    color: grey;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
     text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button:hover {
+    background-color: #555;
   }
