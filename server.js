@@ -6,7 +6,7 @@ const port = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('build/map.html'));
+app.use(express.static('build'));
 
 app.get('/api', (req, res) => {
   const baseURL = 'https://data.princegeorgescountymd.gov/resource/ymzn-mdrc.json';
