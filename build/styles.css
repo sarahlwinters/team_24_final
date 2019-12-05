@@ -4,9 +4,18 @@ body {
   box-sizing: border-box;
 }
 #map {
-  top: 20em;
-  position: relative;
-  display: inline;
+  position: absolute;
+  top: 15em;
+  bottom: 1em;
+  top: 19em;
+  left: 10em;
+  right: 10em;
+}
+div {
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;   
+  flex-wrap: wrap;
 }
 .tableauPlaceholder {
   top: 2em;
@@ -20,12 +29,12 @@ header .PG {
   color: white;
   font-family: verdana;
   font-size: 30px;
-  top: 1em;
+  top: 2em;
 }
 .headerBackground {
   padding: 5px 0;
   background-color: rgb(70, 70, 70);
-  height: 9em;
+  height: 12em;
   width: 100%;
 }
 menu {
