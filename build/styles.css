@@ -4,9 +4,13 @@ body {
   box-sizing: border-box;
 }
 #map {
-  top: 20em;
-  position: relative;
-  display: inline;
+  position: absolute;
+  top: 15em;
+  bottom: 1em;
+  top: 17em;
+  bottom: .1em;
+  left: 10em;
+  right: 10em;
 }
 .tableauPlaceholder {
   top: 2em;
