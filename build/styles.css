@@ -24,12 +24,12 @@ header .PG {
   color: white;
   font-family: verdana;
   font-size: 30px;
-  top: 1em;
+  top: 2em;
 }
 .headerBackground {
   padding: 5px 0;
   background-color: rgb(70, 70, 70);
-  height: 9em;
+  height: 12em;
   width: 100%;
 }
 menu {
