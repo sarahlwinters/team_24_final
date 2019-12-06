@@ -25,10 +25,10 @@ header .PG {
   position: relative;
   text-align: center;
   width: 100%;
-  color: white;
+  color: rgb(147, 204, 195);
   font-family: verdana;
-  font-size: 30px;
-  top: 2em;
+  font-size: 40px;
+  top: 1.5em;
 }
 .headerBackground {
   padding: 5px 0;
@@ -118,7 +118,7 @@ list a.active {
   padding-top: 50px;
 }
 .column-left {
-  box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
+  box-shadow: 0 4px 8px 0 rgb(84, 167, 154);
   font-family: verdana;
   margin-top: 2em;
   margin-left: 3em;
@@ -134,7 +134,7 @@ list a.active {
   clear: both;
 }
 .column-right {
-  box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
+  box-shadow: 0 4px 8px 0 rgb(84, 167, 154);
   font-family: verdana;
   margin-top: 2em;
   margin-right: 3em;
@@ -151,7 +151,7 @@ list a.active {
   clear: both;
 }
 .column-bottom {
-  box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
+  box-shadow: 0 4px 8px 0 rgb(84, 167, 154);
   font-family: verdana;
   margin-top: 27em;
   margin-right: 25em;
