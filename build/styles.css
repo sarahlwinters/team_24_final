@@ -91,6 +91,8 @@ list a.active {
   color: black;
   font-family: verdana;
   font-size: 15px;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 .documentationHeader {
   position: relative;
