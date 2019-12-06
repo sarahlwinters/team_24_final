@@ -3,6 +3,11 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
 #map {
   position: absolute;
   top: 15em;
@@ -20,10 +25,10 @@ header .PG {
   position: relative;
   text-align: center;
   width: 100%;
-  color: white;
+  color: rgb(147, 204, 195);
   font-family: verdana;
-  font-size: 30px;
-  top: 2em;
+  font-size: 40px;
+  top: 1.5em;
 }
 .headerBackground {
   padding: 5px 0;
@@ -60,7 +65,7 @@ list a:hover {
   color: rgb(184, 184, 184);
 }
 list a.active {
-  background-color: rgb(168, 219, 161);
+  background-color: rgb(147, 204, 195);
   border-bottom: white;
   color: black;
 }
@@ -86,6 +91,8 @@ list a.active {
   color: black;
   font-family: verdana;
   font-size: 15px;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 .documentationHeader {
   position: relative;
@@ -113,40 +120,49 @@ list a.active {
   padding-top: 50px;
 }
 .column-left {
-  box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
+  box-shadow: 0 4px 8px 0 rgb(84, 167, 154);
   font-family: verdana;
   margin-top: 2em;
-  margin-left: 1em;
+  margin-left: 3em;
   top: 20em;
   float: left;
-  width: 32%;
-  height: 26em;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 45%;
+  height: 22em;
+  padding: 2em;
 }
-.column-center {
-  box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
-  font-family: verdana;
-  margin-top: 2em;
-  margin-left: 0.5em;
-  float: left;
-  align-content: center;
-  width: 32%;
-  height: 26em;
-  padding-left: 10.5px;
-  border-left: 3px black;
+.column-left:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .column-right {
-  box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
+  box-shadow: 0 4px 8px 0 rgb(84, 167, 154);
   font-family: verdana;
   margin-top: 2em;
-  margin-right: 1em;
+  margin-right: 3em;
   float: right;
-  width: 32%;
-  height: 26em;
-  padding-left: 10px;
-  padding-right: 10px;
+  align-content: center;
+  width: 45%;
+  height: 22em;
+  border-left: 3px black;
+  padding: 2em;
+}
+.column-center:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column-bottom {
+  box-shadow: 0 4px 8px 0 rgb(84, 167, 154);
+  font-family: verdana;
+  margin-top: 27em;
+  margin-right: 25em;
+  margin-left: 11em;
+  align-content: center;
+  width: 70%;
+  height: 20em;
   border-left: 2px black;
+  padding: 2em;
 }
 *,
 *:before,
