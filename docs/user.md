@@ -1,1 +1,3 @@
 User manual
+
+The application we created is intended to be used by prospective homeowners in PG County.  On the application there are visualizations that the stakeholders can utilize to better understand housing violations in PG County.  There is the main page of our application which shows visualizations hosted from Tableau, that show different analyses of the PG County housing inspection data.  The map page shows a map using Leaflet to pinpoint the specific areas that are being generally analyzed in Tableau.  The about page explains our information problem, and a little about the team.  Finally, our documentation page shows users how to use the interactivity of Tableau.
