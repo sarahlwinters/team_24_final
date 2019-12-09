@@ -6,7 +6,7 @@ https://quizzical-almeida-3b37aa.netlify.com <br>
 Website runs fine, however the markers on the map do not show up.
 
 https://dry-beyond-36339.herokuapp.com <br>
-Map runs fine on heroku, however there is an issue with one of the photos and our team does not know why.  Markers do not show on map if the page is refreshed multiple times.
+Map runs fine on heroku, however sometimes there are issues with the photos appearing.  Markers do not show on map if the page is refreshed multiple times as well.
 
 Our information problem is based on how prospective home buyers and renters in PG County lack the resources to view housing inspection violation data in their area.
 
