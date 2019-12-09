@@ -60,6 +60,7 @@
                       // Add a popup to said marker with the address found by geosearch (not the one from the user)
                       marker
                         .bindPopup("<b>Found location</b><br>" + label)
+                        .autoPan	= False
                         .openPopup();
                     }
                   },
