@@ -2,10 +2,10 @@
 
 Sarah Winters, Harish Ram, Anant Venugopal, Rachit Chadha, Angela Phuong, Kelin West
 
-https://quizzical-almeida-3b37aa.netlify.com
+https://quizzical-almeida-3b37aa.netlify.com <br>
 Website runs fine, however the markers on the map do not show up.
 
-https://dry-beyond-36339.herokuapp.com
+https://dry-beyond-36339.herokuapp.com <br>
 Map runs fine on heroku, however there is an issue with one of the photos and our team does not know why.  Markers do not show on map if the page is refreshed multiple times.
 
 Our information problem is based on how prospective home buyers and renters in PG County lack the resources to view housing inspection violation data in their area.
