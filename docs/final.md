@@ -15,6 +15,8 @@ Our information problem is based on how prospective home buyers and renters in P
 <b>Data source:</b> https://data.princegeorgescountymd.gov/Urban-Planning/Housing-Inspection-Violations/9hyf-46qb
 
 <b>Strategies and Solutions</b> <br><br>
+Our initial strategy was to show specific properties on the interactive map, so potential home buyers and renters could use this information when choosing where to purchase a property. This strategy did not work after several iterations of implementing the map on our website; thus, we decided to show general regions of PG County that have more violations and what those violations are. Although our original plan was to use Leaflet to create a map that displayed markers to indicate specific areas, we kept running into errors that forced us to utilize solely Tableau for visualization. Our strategy to download PG County Housing Violations data API through Tableau also failed, so as a work-around, we downloaded the dataset manually for analysis.
+
 
 <b>Technical System Decision Rationale</b> <br><br>
 
@@ -22,7 +24,7 @@ Our information problem is based on how prospective home buyers and renters in P
 Our final system helps address the information problem of there being a lack the resources to view housing inspection violation data by giving prospective home buyers and renters in PG County a tool to use that provides them with information on the housing violations found in specific areas via zip codes. In doing this, our application should aid prospective home buyers and renters in PG County in guaging which homes to buy/rent.
 
 <b>Challenges Faced and Impact</b> <br><br>
-
+The challenges we faced were a combination of technical difficulties and group communication which we ultimately ended up finding a solution that worked for us. In terms of technical difficulties, we had trouble using Leaflet, Tableau API and displaying our website in the manner we initially visualized. Group communication could have been better as starting this project was delayed by the learning curve of using Githhub. Ultimately, the impact the obstacles we faced allowed us to learn different methods of reaching the same goal. Not only did we learn more about servers, API, data visualization software and teamwork, but also were able to improvise our project from our original prototype. 
 
 <b>Possible Future Work</b> <br><br>
 We would like to take this project even further by allowing the application to identify the housing violations found in individual houses rather than just the area in general. This would prove to be more beneficial to our stakeholders since it would give them more information to go off of when making their decision to buy/rent or not.
