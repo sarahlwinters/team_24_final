@@ -19,5 +19,16 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.18.2"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahlwinters/team_24_final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarahlwinters/team_24_final/issues"
+  },
+  "homepage": "https://github.com/sarahlwinters/team_24_final#readme"
 }
