@@ -1,4 +1,4 @@
-<b>PG County Housing Inspection Violations</b>
+<b style='font-size:20px'>PG County Housing Inspection Violations</b>
 
 Sarah Winters, Harish Ram, Anant Venugopal, Rachit Chadha, Angela Phuong, Kelin West
 
