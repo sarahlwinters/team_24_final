@@ -100,6 +100,7 @@ list a.active {
 .docHeader {
   font-family: verdana;
   text-align: center;
+  padding-top: 2em;
 }
 .docIMG {
   width: 80%;
