@@ -12,17 +12,17 @@ Our information problem is based on how prospective home buyers and renters in P
 
 <b>Stakeholders:</b> Prospective home buyers and renters in PG County
 
-<b>Data source</b>: https://data.princegeorgescountymd.gov/Urban-Planning/Housing-Inspection-Violations/9hyf-46qb
+<b>Data source:</b> https://data.princegeorgescountymd.gov/Urban-Planning/Housing-Inspection-Violations/9hyf-46qb
 
-<b>Chosen strategies and solutions for the problem:</b>
+<b>Strategies and Solutions</b> <br><br>
 
-<b>Technical system decision rationale:</b>
+<b>Technical System Decision Rationale</b> <br><br>
 
-<b>How/if your final system helps to address the problem:</b>
+<b>Addressing the Problem</b> <br><br>
 Our final system helps address the information problem of there being a lack the resources to view housing inspection violation data by giving prospective home buyers and renters in PG County a tool to use that provides them with information on the housing violations found in specific areas via zip codes. In doing this, our application should aid prospective home buyers and renters in PG County in guaging which homes to buy/rent.
 
-<b>Challenges faced and impact on final design: </b>
+<b>Challenges Faced and Impact</b> <br><br>
 
 
-<b>Possible future work directions with this problem:</b>
+<b>Possible Future Work</b> <br><br>
 We would like to take this project even further by allowing the application to identify the housing violations found in individual houses rather than just the area in general. This would prove to be more beneficial to our stakeholders since it would give them more information to go off of when making their decision to buy/rent or not.
