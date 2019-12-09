@@ -1,3 +1,4 @@
+/* Index Page CSS */
 html,
 body {
   margin: 0;
@@ -77,14 +78,8 @@ list a.active {
   font-family: verdana;
   font-size: 20px;
 }
-.aboutBio {
-  margin: 2em 14em 14em;
-  position: relative;
-  text-align: center;
-  color: black;
-  font-family: verdana;
-  font-size: 20px;
-}
+
+/* Documentation Page CSS */
 .documentationBio {
   position: relative;
   text-align: center;
@@ -119,6 +114,14 @@ list a.active {
 /* About Page CSS */
 #row {
   padding-top: 50px;
+}
+.aboutBio {
+  margin: 2em 14em 14em;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: verdana;
+  font-size: 20px;
 }
 .column-left {
   box-shadow: 0 4px 8px 0 rgb(84, 167, 154);
