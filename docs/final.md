@@ -1,4 +1,4 @@
-<b style='fontsize:40px'>PG County Housing Inspection Violations</b>
+<b>PG County Housing Inspection Violations</b>
 
 Sarah Winters, Harish Ram, Anant Venugopal, Rachit Chadha, Angela Phuong, Kelin West
 
@@ -10,22 +10,19 @@ Map runs fine on heroku, however sometimes there are issues with the photos appe
 
 Our information problem is based on how prospective home buyers and renters in PG County lack the resources to view housing inspection violation data in their area.
 
-Stakeholders:
-
-Prospective home buyers and renters in PG County
+<b>Stakeholders:</b> Prospective home buyers and renters in PG County
 
 <b>Data source</b>: https://data.princegeorgescountymd.gov/Urban-Planning/Housing-Inspection-Violations/9hyf-46qb
 
-Chosen strategies and solutions for the problem:
+<b>Chosen strategies and solutions for the problem:</b>
 
-Technical system decision rationale:
+<b>Technical system decision rationale:</b>
 
-
-How/if your final system helps to address the problem:
+<b>How/if your final system helps to address the problem:</b>
 Our final system helps address the information problem of there being a lack the resources to view housing inspection violation data by giving prospective home buyers and renters in PG County a tool to use that provides them with information on the housing violations found in specific areas via zip codes. In doing this, our application should aid prospective home buyers and renters in PG County in guaging which homes to buy/rent.
 
-Challenges faced and impact on final design:
+<b>Challenges faced and impact on final design: </b>
 
 
-Possible future work directions with this problem:
+<b>Possible future work directions with this problem:</b>
 We would like to take this project even further by allowing the application to identify the housing violations found in individual houses rather than just the area in general. This would prove to be more beneficial to our stakeholders since it would give them more information to go off of when making their decision to buy/rent or not.
