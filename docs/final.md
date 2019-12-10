@@ -19,6 +19,7 @@ Our initial strategy was to show specific properties on the interactive map, so 
 
 
 <b>Technical System Decision Rationale</b> <br><br>
+The rationale behind our design of the sys
 
 <b>Addressing the Problem</b> <br><br>
 Our final system helps address the information problem of there being a lack of resources to view housing inspection violation data by giving prospective home buyers and renters in PG County a tool to use that provides them with information on the housing violations found in specific areas via zip codes. In doing this, our application should aid prospective home buyers and renters in PG County in gauging which areas to buy/rent.
